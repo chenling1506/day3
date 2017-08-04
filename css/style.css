@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url(reset.css);
+body, html, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body, html {
+  font-family: "微软雅黑";
+  min-width: 320px; }
+
+body {
+  font-size: 16px;
+  background: #F3F3FE; }
+
+.container {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: .54rem;
+  border-bottom: 1px solid #EDEDED;
+  background: #fff; }
+  .header ul {
+    width: 100%;
+    height: .54rem;
+    display: flex;
+    align-items: center; }
+    .header ul li {
+      flex: 1;
+      text-align: center; }
+      .header ul li a {
+        color: #ADADAD;
+        font-size: .16rem; }
+
+.main {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 10px;
+  background: #fff; }
+
+.con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .con li {
+    width: 95%;
+    height: 1.12rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 7px 0; }
+    .con li h4 {
+      width: 100%;
+      height: .63rem;
+      background: #FD6060;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border-bottom: 5px dashed #fff;
+      position: relative; }
+      .con li h4 b {
+        line-height: .63rem;
+        background: url(../img/a.png) no-repeat 15px center;
+        display: inline-block;
+        width: .69rem;
+        height: .49rem;
+        padding-left: 44px;
+        font-size: .47rem;
+        color: #fff;
+        font-weight: bolder;
+        background-size: .23rem .25rem; }
+      .con li h4 span {
+        font-size: .26rem;
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        right: 5px; }
+
+.content {
+  width: 100%;
+  height: .49rem; }
+  .content p {
+    background: url(../img/b.png) no-repeat center;
+    background-position: 0px -6px;
+    padding-left: 33px;
+    height: .19rem;
+    font-size: .12rem;
+    color: #02A157;
+    line-height: .19rem; }
+  .content label {
+    background: url(../img/b.png) no-repeat center;
+    background-position: 0px -27px;
+    padding-left: 33px;
+    height: .3rem;
+    font-size: .12rem;
+    color: #ccc;
+    line-height: .3rem;
+    background-size: .21rem .51rem; }
+
+/*# sourceMappingURL=style.css.map */
